@@ -1,0 +1,22 @@
+{
+  "id": "x4_voice_smoke",
+  "name": "X4 Voice Smoke",
+  "description": "pipeline smoke test",
+  "langs": [
+    "l044"
+  ],
+  "targets": [
+    {
+      "page": "10002",
+      "contexts": [
+        "normal"
+      ],
+      "lines": [
+        "1",
+        "2",
+        "3"
+      ],
+      "tts_text": "甲方案生效"
+    }
+  ]
+}

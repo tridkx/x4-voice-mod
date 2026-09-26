@@ -1,0 +1,12 @@
+{
+  "id": "root_probe",
+  "name": "root",
+  "description": "root-folder loose files",
+  "langs": ["l044"],
+  "voice": "Microsoft Huihui Desktop",
+  "rate": 0,
+  "targets": [
+    {"page": "10002", "contexts": ["normal"], "lines": "all", "tts_text": "根目录通道生效"},
+    {"page": "10002", "contexts": ["comm"],   "lines": "all", "tts_text": "根目录通道生效"}
+  ]
+}

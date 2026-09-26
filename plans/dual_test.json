@@ -1,0 +1,22 @@
+{
+  "id": "x4_annc_cn",
+  "name": "Chinese Announcements (route probe)",
+  "name_zh": "中文播报（路线探针）",
+  "description": "Probe: distinguishes extension-internal sample redirect from root-folder loose files.",
+  "description_zh": "探针：区分「扩展内采样重定向」与「根目录散装文件」两条路线。",
+  "date": "2026-02-01",
+  "langs": ["l044"],
+  "voice": "Microsoft Huihui Desktop",
+  "rate": 0,
+  "targets": [
+    {"page": "10002", "contexts": ["normal"], "lines": "all",
+     "dest": "voice/10002/normal/{line}.ogg", "tts_text": "扩展通道生效"},
+    {"page": "10002", "contexts": ["comm"], "lines": "all",
+     "dest": "voice/10002/comm/{line}.ogg", "tts_text": "扩展通道生效"}
+  ],
+  "sound_library_redirect": [
+    {"id": "10002_normal",         "sample": "extensions\\x4_annc_cn\\voice\\10002\\normal"},
+    {"id": "10002_comm",           "sample": "extensions\\x4_annc_cn\\voice\\10002\\normal"},
+    {"id": "10002_comm_broadcast", "sample": "extensions\\x4_annc_cn\\voice\\10002\\comm"}
+  ]
+}

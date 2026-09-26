@@ -1,0 +1,13 @@
+{
+  "id": "x4_annc_cn_smoke",
+  "name": "smoke",
+  "description": "smoke test",
+  "langs": ["l044"],
+  "text_lang": "l086",
+  "voice": "Microsoft Huihui Desktop",
+  "rate": 0,
+  "targets": [
+    {"page": "10099", "contexts": ["station_broadcast"], "lines": ["1","2","1001","1008","1010","3001","3006"],
+     "dest": "voice/10099/station_broadcast/{line}.ogg", "tts_text": "@t"}
+  ]
+}

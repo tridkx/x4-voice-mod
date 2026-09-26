@@ -1,0 +1,23 @@
+{
+  "id": "x4_annc_cn",
+  "name": "Chinese Ship and Station Announcements (probe)",
+  "name_zh": "中文飞船与空间站播报（探针）",
+  "description": "Replaces the ship computer (Betty) and station public-address voice lines with Chinese TTS.",
+  "description_zh": "把飞船电脑 Betty 与空间站公共广播换成中文语音。",
+  "date": "2026-02-01",
+  "langs": ["l044"],
+  "text_lang": "l086",
+  "voice": "Microsoft Huihui Desktop",
+  "rate": 0,
+  "targets": [
+    {"page": "10002", "contexts": ["normal", "comm"], "lines": "all", "tts_text": "@t"},
+    {"page": "10099", "contexts": ["station_broadcast"], "lines": "all",
+     "dest": "voice/10099/station_broadcast/{line}.ogg", "tts_text": "@t"},
+    {"page": "10099", "contexts": ["station_broadcast"], "lines": "all",
+     "dest": "voice-l044/10099/station_broadcast/{line}.ogg", "tts_text": "@t"}
+  ],
+  "sound_library_redirect": [
+    {"id": "10099_normal",         "sample": "extensions\\x4_annc_cn\\voice\\10099\\station_broadcast"},
+    {"id": "10099_comm_broadcast", "sample": "extensions\\x4_annc_cn\\voice\\10099\\station_broadcast"}
+  ]
+}

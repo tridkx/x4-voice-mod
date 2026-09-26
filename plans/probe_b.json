@@ -1,0 +1,18 @@
+{
+  "id": "x4_snd_probe",
+  "name": "X4 Voice Probe B",
+  "name_zh": "X4 语音替换探针 B",
+  "description": "Probe B: redirect sound_library sample to an extension-local path.",
+  "description_zh": "探针 B：把 sound_library 的 sample 重定向到扩展内路径。",
+  "date": "2026-02-01",
+  "langs": ["l044"],
+  "sound_library_redirect": [
+    {"id": "20005_normal", "sample": "extensions\\x4_snd_probe\\voice\\20005\\normal"},
+    {"id": "20005_comm",   "sample": "extensions\\x4_snd_probe\\voice\\20005\\normal"}
+  ],
+  "targets": [
+    {"page": "20005", "contexts": ["normal"], "lines": "all",
+     "dest": "voice/20005/normal/{line}.ogg",
+     "tts_text": "乙方案生效", "voice": "Microsoft Huihui Desktop", "rate": 1}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "arch10_payload",
+  "name": "arch10",
+  "description": "root-level 10.cat payload",
+  "langs": ["l044"],
+  "voice": "Microsoft Huihui Desktop",
+  "rate": 0,
+  "targets": [
+    {"page": "10002", "contexts": ["normal", "comm"], "lines": "all", "tts_text": "归档通道生效"}
+  ]
+}

@@ -1,0 +1,19 @@
+# X4 的 .cat 是纯文本索引，行尾必须是 LF —— 被转成 CRLF 会导致游戏解析异常
+*.cat -text
+*.dat -text
+*.sig -text
+
+# 音频 / 图片一律按二进制处理
+*.ogg binary
+*.xpm binary
+*.dds binary
+*.png binary
+*.jpg binary
+*.gz binary
+
+# 源码与文档统一 LF，避免跨平台 diff 噪音
+*.py   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.csv  text eol=lf
+*.xml  text eol=lf

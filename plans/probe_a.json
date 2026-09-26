@@ -1,0 +1,13 @@
+{
+  "id": "x4_snd_probe",
+  "name": "X4 Voice Probe A",
+  "name_zh": "X4 语音替换探针 A",
+  "description": "Probe A: direct override of voice-l044 paths from an extension.",
+  "description_zh": "探针 A：扩展直接覆盖 voice-l044 路径。",
+  "date": "2026-02-01",
+  "langs": ["l044"],
+  "targets": [
+    {"page": "10002", "contexts": ["normal", "comm", "comm_broadcast", "comm_npc"],
+     "lines": "all", "tts_text": "甲方案生效", "voice": "Microsoft Huihui Desktop", "rate": 1}
+  ]
+}

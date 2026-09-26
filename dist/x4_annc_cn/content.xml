@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="x4_annc_cn" name="Chinese Ship and Station Announcements" version="100" date="2026-02-01" save="0" description="Replaces the ship computer (Betty) and station public-address voice lines with Chinese TTS, by redirecting the sound_library samples into this extension.">
+  <text language="44" name="Chinese Ship and Station Announcements" description="Replaces the ship computer (Betty) and station public-address voice lines with Chinese TTS, by redirecting the sound_library samples into this extension."/>
+  <text language="86" name="中文飞船与空间站播报" description="把飞船电脑 Betty 与空间站公共广播换成中文语音（通过重定向 sound_library 采样实现）。"/>
+</content>

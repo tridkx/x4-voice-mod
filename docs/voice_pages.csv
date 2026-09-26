@@ -1,0 +1,230 @@
+﻿page,说话人/角色,音频文件数,唯一台词数,context,带文本行数
+10201,Boron NPC 1 / Boron rep / Misc Plot Characters,9300,2325,comm|comm_broadcast|comm_npc|normal,8976
+10111,Argon NPC Male 6 / Dal Busta / Diplomatic Mentor,7412,1853,comm|comm_broadcast|comm_npc|normal,7404
+10190,Argon Tutor - Flight School,4313,1079,comm|comm_broadcast|comm_npc|normal,4120
+10101,Argon NPC Male 1 / Antigone rep / Misc Plot Characters,4272,1068,comm|comm_broadcast|comm_npc|normal,3528
+10405,Split NPC Male 3,2764,691,comm|comm_broadcast|comm_npc|normal,2764
+10406,Split NPC Female 3,2696,674,comm|comm_broadcast|comm_npc|normal,2636
+10108,Argon NPC Female 3,2540,635,comm|comm_broadcast|comm_npc|normal,2536
+10304,Paranid NPC 4,2500,625,comm|comm_broadcast|comm_npc|normal,2496
+10203,Boron NPC 3 / Light Squad Leader,2456,614,comm|comm_broadcast|comm_npc|normal,2448
+10204,Boron NPC 4 / Heavy Squad Leader,2448,612,comm|comm_broadcast|comm_npc|normal,2436
+10110,Argon NPC Female 5,2412,603,comm|comm_broadcast|comm_npc|normal,2404
+10107,Argon NPC Female 2 / Hatikvah rep,2400,600,comm|comm_broadcast|comm_npc|normal,2388
+10305,Paranid NPC 5,2360,590,comm|comm_broadcast|comm_npc|normal,2356
+10307,Paranid NPC 7,2360,590,comm|comm_broadcast|comm_npc|normal,2356
+10202,Boron NPC 2 / Boron Trader,2308,579,comm|comm_broadcast|comm_npc|normal,2280
+10102,Argon NPC Male 2,2308,577,comm|comm_broadcast|comm_npc|normal,2308
+10205,Boron NPC 5 / Boron Herald 1,2280,570,comm|comm_broadcast|comm_npc|normal,2268
+10503,Teladi NPC 3 / Scaleplate rep,2260,565,comm|comm_broadcast|comm_npc|normal,2256
+10404,Split NPC Female 2,2240,560,comm|comm_broadcast|comm_npc|normal,2232
+10401,Split NPC Male 1 / Split 1 rep / Misc Plot Characters,2224,556,comm|comm_broadcast|comm_npc|normal,2224
+10501,Teladi NPC 1 / Teladi rep / Misc Plot Characters,2212,553,comm|comm_broadcast|comm_npc|normal,2208
+10106,Argon NPC Female 1 /  Argon rep / Misc Plot Characters,2196,549,comm|comm_broadcast|comm_npc|normal,2192
+10402,Split NPC Male 2,2196,549,comm|comm_broadcast|comm_npc|normal,2196
+10507,Teladi NPC 7,2196,549,comm|comm_broadcast|comm_npc|normal,2184
+10103,Argon NPC Male 3,2192,548,comm|comm_broadcast|comm_npc|normal,2184
+10301,Paranid NPC 1 / Paranid rep / Misc Plot Characters,2192,548,comm|comm_broadcast|comm_npc|normal,2192
+10504,Teladi NPC 4,2192,548,comm|comm_broadcast|comm_npc|normal,2180
+10302,Paranid NPC 2 / Holy Order rep,2188,547,comm|comm_broadcast|comm_npc|normal,2184
+10303,Paranid NPC 3 / Alliance rep,2188,547,comm|comm_broadcast|comm_npc|normal,2184
+10403,Split NPC Female 1 / Split 2 rep / Misc Plot Characters,2188,547,comm|comm_broadcast|comm_npc|normal,2184
+10502,Teladi NPC 2 / Ministry rep,2188,547,comm|comm_broadcast|comm_npc|normal,2184
+10104,Argon NPC Male 4,2184,546,comm|comm_broadcast|comm_npc|normal,2184
+10109,Argon NPC Female 4,2184,546,comm|comm_broadcast|comm_npc|normal,2184
+10105,Argon NPC Male 5,2148,537,comm|comm_broadcast|comm_npc|normal,2136
+10505,Teladi NPC 5,2144,536,comm|comm_broadcast|comm_npc|normal,2136
+10306,Paranid NPC 6,2136,534,comm|comm_broadcast|comm_npc|normal,2136
+10506,Teladi NPC 6,2136,534,comm|comm_broadcast|comm_npc|normal,2136
+10002,Ship Computer - Betty,2038,514,comm|comm_broadcast|comm_npc|normal,2032
+20101,Ships,1704,426,comm|comm_broadcast|comm_npc|normal,1704
+10359,Mission Paranid NPC 9 / ALI Paranid,1652,413,comm|comm_broadcast|comm_npc|normal,1548
+20005,Location Name Pool,1568,392,comm|comm_broadcast|comm_npc|normal,1568
+10157,Mission Argon/Terran NPC Female 4 / Terran Secret Service Contact,1472,368,comm|comm_broadcast|comm_npc|normal,1468
+10356,Mission Paranid NPC 6 / Axiom,1456,364,comm|comm_broadcast|comm_npc|normal,1400
+10559,Mission Teladi NPC 9 / MIN Pursuing Pilot / Shady Bar Decoy / The Fan,1396,349,comm|comm_broadcast|comm_npc|normal,1364
+20201,Wares,1328,332,comm|comm_broadcast|comm_npc|normal,1328
+10453,Mission Split Male 1 / Maestro,1164,291,comm|comm_broadcast|comm_npc|normal,1160
+10006,Player Female Speaker - Timelines,1116,279,comm|comm_broadcast|comm_npc|normal,1112
+10005,Player Male Speaker - Timelines,1112,278,comm|comm_broadcast|comm_npc|normal,1112
+10252,Mission Boron NPC 2 / Boron Leader Outer Bubble,1104,276,comm|comm_broadcast|comm_npc|normal,1084
+10558,Mission Teladi NPC 8 / Ace / Workforce Supervisor,944,236,comm|comm_broadcast|comm_npc|normal,928
+10156,Mission Argon/Terran NPC Male 3 / Segaris Pioneer Chief Scientist / Terraforming contact 1 (ARG),940,235,comm|comm_broadcast|comm_npc|normal,936
+10003,Major Domo,828,207,comm|comm_broadcast|comm_npc|normal,720
+20204,Jobs,772,193,comm|comm_broadcast|comm_npc|normal,772
+10184,Mission Argon/Terran NPC Male 20 / Twins 1 &amp; 2,712,178,comm|comm_broadcast|comm_npc|normal,708
+10132,Mission Argon Female 23 / Kaori Chen,712,178,comm|comm_broadcast|comm_npc|normal,664
+10251,Mission Boron NPC 1 / Nila,652,163,comm|comm_broadcast|comm_npc|normal,632
+10195,Mission Argon/Terran NPC Male 23,636,159,comm|comm_broadcast|comm_npc|normal,636
+20109,Miscellaneous Objects,632,158,comm|comm_broadcast|comm_npc|normal,632
+20102,Stations,588,147,comm|comm_broadcast|comm_npc|normal,588
+10451,Mission Split Female 1 / Split Story - Curb,576,144,comm|comm_broadcast|comm_npc|normal,576
+10353,Mission Paranid NPC 3 / Terraforming Story - Yaki Scientist,556,139,comm|comm_broadcast|comm_npc|normal,548
+10362,Mission Paranid NPC 12/ Tammancktall,488,122,comm|comm_broadcast|comm_npc|normal,448
+10133,Mission Argon NPC Male 25 / Ban Danna,472,118,comm|comm_broadcast|comm_npc|normal,468
+20208,NPC Types,464,116,comm|comm_broadcast|comm_npc|normal,464
+10455,Mission Split Female 3 / Sae T'Plt,444,111,comm|comm_broadcast|comm_npc|normal,404
+10151,Mission Argon/Terran NPC Female 1 / Paranid Story -  Buccaneer,436,109,comm|comm_broadcast|comm_npc|normal,436
+10188,Mission Argon/Terran NPC Female 17 / Kriss Mellerd,436,109,comm|comm_broadcast|comm_npc|normal,432
+10351,Mission Paranid NPC 1 / Paranid Story - Duke,424,106,comm|comm_broadcast|comm_npc|normal,424
+10152,Mission Argon/Terran NPC Female 2 / Diplomat Intro - Hatikvah Manager,420,105,comm|comm_broadcast|comm_npc|normal,420
+10165,Mission Argon/Terran NPC Female 8 / Yaki Leader - Yaki investigation,412,103,comm|comm_broadcast|comm_npc|normal,412
+20234,Input Feedback,412,103,comm|comm_broadcast|comm_npc|normal,412
+10253,Mission Boron NPC 3 / Boron Leader Inner Bubble,400,100,comm|comm_broadcast|comm_npc|normal,392
+10148,Mission Argon NPC Male 34 / Sobert,364,91,comm|comm_broadcast|comm_npc|normal,312
+10173,Mission Argon/Terran NPC Male 12 / Tidebreak Station Air Control Operator / Twin Pilot Henchman / Casino Manager,360,90,comm|comm_broadcast|comm_npc|normal,356
+20111,Object Variations,356,89,comm|comm_broadcast|comm_npc|normal,356
+20007,Interior Locations,344,86,comm|comm_broadcast|comm_npc|normal,344
+10130,Mission Argon Female 21 / Lissa Ygon,336,84,comm|comm_broadcast|comm_npc|normal,328
+10136,Mission Argon Female 25 / Seasoned Miner,316,79,comm|comm_broadcast|comm_npc|normal,312
+20203,Factions,312,78,comm|comm_broadcast|comm_npc|normal,312
+20216,Player Research,304,76,comm|comm_broadcast|comm_npc|normal,304
+10099,Station Control - Common,365,73,comm|comm_broadcast|comm_npc|normal|station_broadcast,365
+10140,Mission Argon NPC Male 29 / Race Announcer,268,67,comm|comm_broadcast|comm_npc|normal,256
+10147,Mission Argon NPC Female 29 / Myrna Rae,264,66,comm|comm_broadcast|comm_npc|normal,264
+10454,Mission Split Male 2 / Lu t'Cca - Split Brother,260,65,comm|comm_broadcast|comm_npc|normal,260
+10155,Mission Argon/Terran NPC Male 2 / Pioneer Terraforming - Police official / Gate discovery official / Sol warning announcer 1 / Terraforming contact (SCA),252,63,comm|comm_broadcast|comm_npc|normal,244
+10574,Mission Teladi NPC 23 / Relief Pilot,252,63,comm|comm_broadcast|comm_npc|normal,216
+20219,Ranks,248,62,comm|comm_broadcast|comm_npc|normal,248
+10561,Mission Teladi NPC 11 / Pirate Hunter,244,61,comm|comm_broadcast|comm_npc|normal,244
+20299,Timeline,240,60,comm|comm_broadcast|comm_npc|normal,240
+10456,Mission Split Female 4 / Pa T'Snt,240,60,comm|comm_broadcast|comm_npc|normal,240
+10178,Mission Argon/Terran NPC Female 12 / Scrapyard Contact / Vegas Station,224,56,comm|comm_broadcast|comm_npc|normal,216
+10131,Mission Argon Female 22 / Mitsuno Sheppard,220,55,comm|comm_broadcast|comm_npc|normal,220
+10098,Torus Computer,216,54,comm|comm_broadcast|comm_npc|normal,216
+10135,Mission Argon Female 24 / Military Ship Captain,216,54,comm|comm_broadcast|comm_npc|normal,212
+10185,Mission Argon/Terran NPC Female 14 / Syndicate Enforcer,208,52,comm|comm_broadcast|comm_npc|normal,184
+20403,Latin Letters,208,52,comm|comm_broadcast|comm_npc|normal,208
+10196,Mission Argon/Terran NPC Male 24,200,50,comm|comm_broadcast|comm_npc|normal,200
+10198,Mission Argon/Terran NPC Male 25 / Antigone diplomat,200,50,comm|comm_broadcast|comm_npc|normal,196
+10566,Mission Teladi NPC 16 / Ugalirias Rudilis Gantelios IX,200,50,comm|comm_broadcast|comm_npc|normal,168
+10174,Mission Argon/Terran NPC Male 13 / Mellerd's Thug / Vigor Syndicate Pirate / Race Announcer,196,49,comm|comm_broadcast|comm_npc|normal,196
+10134,Mission Argon NPC Male 26 / Calm Competent Crewman,196,49,comm|comm_broadcast|comm_npc|normal,192
+10370,Mission Paranid NPC 20 / Olmancketslat,196,49,comm|comm_broadcast|comm_npc|normal,196
+20103,Landmarks,188,47,comm|comm_broadcast|comm_npc|normal,188
+20215,Ware Groups,188,47,comm|comm_broadcast|comm_npc|normal,188
+10175,Mission Argon/Terran NPC Male 14 / Pirate GS 1 Player / Shady Bar Contact,180,45,comm|comm_broadcast|comm_npc|normal,180
+10191,Mission Argon/Terran NPC Female 19 / Mission Specialist,180,45,comm|comm_broadcast|comm_npc|normal,180
+10142,Mission Argon NPC Female 27 / Naomi Kelly,172,43,comm|comm_broadcast|comm_npc|normal,172
+10257,Mission Boron NPC 7 / Boron Herald 2,160,40,comm|comm_broadcast|comm_npc|normal,156
+10169,Mission Argon/Terran NPC Male 10 / Pioneers Mining Leader - Yaki investigation,156,39,comm|comm_broadcast|comm_npc|normal,156
+20404,Arabic Numerals,156,39,comm|comm_broadcast|comm_npc|normal,156
+10457,Mission Split Male 3 / Patriarch Tharka,156,39,comm|comm_broadcast|comm_npc|normal,156
+10161,Mission Argon/Terran NPC Female 6 / Yaki Civilian - Yaki investigation,152,38,comm|comm_broadcast|comm_npc|normal,148
+10162,Mission Argon/Terran NPC Male  6 / Antigone Public Servant (Saman Red) - Covert ops,152,38,comm|comm_broadcast|comm_npc|normal,152
+10564,Mission Teladi NPC 14 / Scenario Chief Mechanic,152,38,comm|comm_broadcast|comm_npc|normal,152
+20218,Relation Ranges,144,36,comm|comm_broadcast|comm_npc|normal,144
+10177,Mission Argon/Terran NPC Female 11 / RIP Manager / Scavenger Captain,140,35,comm|comm_broadcast|comm_npc|normal,140
+10139,Mission Argon NPC Male 28 - Julian Gardna,140,35,comm|comm_broadcast|comm_npc|normal,140
+20221,Ship Types,128,32,comm|comm_broadcast|comm_npc|normal,128
+10097,Demo Speaker,120,30,comm|comm_broadcast|comm_npc|normal,120
+10182,Mission Argon/Terran NPC Male 18 / Food Smuggler,116,29,comm|comm_broadcast|comm_npc|normal,116
+20223,Flight Formations,112,28,comm|comm_broadcast|comm_npc|normal,112
+10154,Mission Argon/Terran NPC Female 3 / Sol warning announcer 2 / Terraforming contact (ANT),104,26,comm|comm_broadcast|comm_npc|normal,104
+10560,Mission Teladi NPC 10 / MIN Station Guard / Minor Teladi prisoner,104,26,comm|comm_broadcast|comm_npc|normal,104
+10141,Mission Argon NPC Male 30 / Nathan R. Gunne,104,26,comm|comm_broadcast|comm_npc|normal,104
+10146,Mission Argon NPC Female 28 / Saya Kho,104,26,comm|comm_broadcast|comm_npc|normal,104
+10352,Mission Paranid NPC 2 / Paranid Story - Generic,100,25,comm|comm_broadcast|comm_npc|normal,100
+20402,Roman Numerals,100,25,comm|comm_broadcast|comm_npc|normal,100
+10368,Mission Paranid NPC 18 / Realm of the Trinity diplomat,100,25,comm|comm_broadcast|comm_npc|normal,96
+10186,Mission Argon/Terran NPC Female 15 / VIG Leader,96,24,comm|comm_broadcast|comm_npc|normal,92
+10192,Mission Argon/Terran NPC Male 21 / Fleet Admiral,96,24,comm|comm_broadcast|comm_npc|normal,96
+20401,Greek Letters,96,24,comm|comm_broadcast|comm_npc|normal,96
+10364,Mission Paranid NPC 14 / Timelines Hub Paranid Recruit,96,24,comm|comm_broadcast|comm_npc|normal,88
+10369,Mission Paranid NPC 19 / Duke's Tempest diplomat,96,24,comm|comm_broadcast|comm_npc|normal,96
+10183,Mission Argon/Terran NPC Male 19 / RIP Manager,92,23,comm|comm_broadcast|comm_npc|normal,92
+20001,Base Categories,92,23,comm|comm_broadcast|comm_npc|normal,92
+10172,Mission Argon/Terran NPC Female 10 / Workforce Supervisor / Scavenger Salvage Team,88,22,comm|comm_broadcast|comm_npc|normal,88
+10555,Mission Teladi NPC 5 / Scaleplate lieutenant - Covert ops,88,22,comm|comm_broadcast|comm_npc|normal,88
+20213,Object Purposes,88,22,comm|comm_broadcast|comm_npc|normal,88
+10563,Mission Teladi NPC 13 / Scenario Military Pilot,88,22,comm|comm_broadcast|comm_npc|normal,88
+10572,Mission Teladi NPC 22 / Quettanaut diplomat,88,22,comm|comm_broadcast|comm_npc|normal,84
+10180,Mission Argon/Terran NPC Female 13 / RIP Faction Representative,84,21,comm|comm_broadcast|comm_npc|normal,68
+10568,Mission Teladi NPC 18 / Tumulis Tertasobas Holigis V,84,21,comm|comm_broadcast|comm_npc|normal,72
+10170,Mission Argon/Terran NPC Female 9 / Pioneers Mining Subordinate - Yaki investigation,80,20,comm|comm_broadcast|comm_npc|normal,80
+20209,Venture Ranks,80,20,comm|comm_broadcast|comm_npc|normal,80
+10004,Sohnen NPC 1,80,20,comm|comm_broadcast|comm_npc|normal,80
+10120,Mission Argon/Terran NPC Female 22 / Segaris diplomat,80,20,comm|comm_broadcast|comm_npc|normal,76
+10121,Mission Argon/Terran NPC Female 23 / Vigor diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10122,Mission Argon/Terran NPC Female 24 / Riptide diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10123,Mission Argon/Terran NPC Male 27 / Hatikvah diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10124,Mission Argon/Terran NPC Male 28 / Yaki diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10197,Mission Argon/Terran Mission NPC Female 21 / Argon diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10199,Mission Argon/Terran NPC Male 26 / Terran diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10259,Mission Boron NPC 9 / Boron diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10365,Mission Paranid NPC 15 / Paranid diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10366,Mission Paranid NPC 16 / Holy Order diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10367,Mission Paranid NPC 17 / Alliance of the Word diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10461,Mission Split Female NPC 6 / Split Faction diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10462,Mission Split Male NPC 6 / Free Families Faction diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10463,Mission Split Female NPC 7 / Court of Curbs Faction diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10570,Mission Teladi Male NPC 20 / Teladi Company Faction diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10571,Mission Teladi Male NPC 21 / Ministry of Finance Faction diplomat,80,20,comm|comm_broadcast|comm_npc|normal,80
+10567,Mission Teladi NPC 17 / Rusiris Libaras Deridos IX,76,19,comm|comm_broadcast|comm_npc|normal,72
+10577,Mission Teladi NPC 26 / Teladi Agent,76,19,comm|comm_broadcast|comm_npc|normal,68
+10260,Mission Boron NPC 10 / Boron Agent,72,18,comm|comm_broadcast|comm_npc|normal,72
+10601,Argon NPC Male 37 / Argon Male Agent,72,18,comm|comm_broadcast|comm_npc|normal,72
+10602,Argon NPC Female 31 / Argon Female Agent,72,18,comm|comm_broadcast|comm_npc|normal,72
+10603,Argon/Terran NPC Male 38 / Argon Male Agent,72,18,comm|comm_broadcast|comm_npc|normal,72
+10604,Argon/Terran NPC Female 32 / Terran Female Agent,72,18,comm|comm_broadcast|comm_npc|normal,72
+10153,Mission Argon/Terran NPC Male 1 / Diplomat Intro - Argon Manager,68,17,comm|comm_broadcast|comm_npc|normal,68
+10179,Mission Argon/Terran NPC Male 16 / VIG Faction Representative,68,17,comm|comm_broadcast|comm_npc|normal,64
+10255,Mission Boron NPC 5 / Boron Announcer,68,17,comm|comm_broadcast|comm_npc|normal,68
+10357,Mission Paranid NPC 7 / BUC/TEM Faction Representative,68,17,comm|comm_broadcast|comm_npc|normal,68
+10358,Mission Paranid NPC 8 / TRI Faction Representative,68,17,comm|comm_broadcast|comm_npc|normal,68
+10360,Mission Paranid NPC 10 / Emissary,68,17,comm|comm_broadcast|comm_npc|normal,64
+10150,Mission Argon NPC Female 30,68,17,comm|comm_broadcast|comm_npc|normal,56
+10372,Mission Paranid NPC 22 / Paranid Agent,68,17,comm|comm_broadcast|comm_npc|normal,68
+10458,Mission Split Male 4 / Scenario Terrorist,68,17,comm|comm_broadcast|comm_npc|normal,68
+10460,Mission Split Female 5 / Kal t'Ktt,68,17,comm|comm_broadcast|comm_npc|normal,52
+10464,Mission Split Male NPC 7 / Split Male Agent,68,17,comm|comm_broadcast|comm_npc|normal,68
+10465,Mission Split Female NPC 8 / Split Female Agent,68,17,comm|comm_broadcast|comm_npc|normal,68
+10176,Mission Argon/Terran NPC Male 15 / Mad Producer,64,16,comm|comm_broadcast|comm_npc|normal,60
+10181,Mission Argon/Terran NPC Male 17 / Mad Artist,64,16,comm|comm_broadcast|comm_npc|normal,60
+10189,Mission Argon/Terran NPC Female 18 / Nomad Researcher,64,16,comm|comm_broadcast|comm_npc|normal,64
+10254,Mission Boron NPC 4 / Boron Terraforming Contact,64,16,comm|comm_broadcast|comm_npc|normal,64
+10355,Mission Paranid NPC 5 / Workforce Supervisor / Welfare Research / Twins Story Race Cutscene / Buccaneer Air-Traffic Control,64,16,comm|comm_broadcast|comm_npc|normal,64
+10551,Mission Teladi NPC 1 / Diplomat Intro - Scale Plate Lieutenant,64,16,comm|comm_broadcast|comm_npc|normal,64
+10363,Mission Paranid NPC 13 / Calm Competent Crewman,64,16,comm|comm_broadcast|comm_npc|normal,64
+10166,Mission Argon/Terran NPC Male 7 / Terran Transport Captain / Fleet Commander (Nowak Lee),60,15,comm|comm_broadcast|comm_npc|normal,60
+10187,Mission Argon/Terran NPC Female 16 / Mad Scientist,60,15,comm|comm_broadcast|comm_npc|normal,60
+20217,Relation Change Reasons,60,15,comm|comm_broadcast|comm_npc|normal,60
+10159,Mission Argon/Terran NPC Female 5 / Pioneer Gamestart Character,56,14,comm|comm_broadcast|comm_npc|normal,56
+10256,Mission Boron NPC 6 / Boron Scientist,56,14,comm|comm_broadcast|comm_npc|normal,56
+10554,Mission Teladi NPC 4 / Pioneers Civilian 2 - Yaki investigation,56,14,comm|comm_broadcast|comm_npc|normal,56
+10562,Mission Teladi NPC 12 / Gate Opening Witness,56,14,comm|comm_broadcast|comm_npc|normal,56
+20212,Miscellaneous Library Entries,56,14,comm|comm_broadcast|comm_npc|normal,56
+10459,Mission Split Male 5 / Timelines Hub Split Recruit,56,14,comm|comm_broadcast|comm_npc|normal,52
+10565,Mission Teladi NPC 15 / Timelines Hub Teladi Recruit,56,14,comm|comm_broadcast|comm_npc|normal,52
+10569,Mission Teladi NPC 19 / Gogoeolos Yahandis Yoyunis II,56,14,comm|comm_broadcast|comm_npc|normal,52
+10361,Mission Paranid NPC 11 / Ambush Actor,52,13,comm|comm_broadcast|comm_npc|normal,48
+10193,Mission Argon/Terran NPC Female 20 / Bar Witness,48,12,comm|comm_broadcast|comm_npc|normal,48
+10160,Mission Argon/Terran NPC Male 5 / Yaki Renegade (Obelisk Ikegami) - Yaki investigation,44,11,comm|comm_broadcast|comm_npc|normal,40
+10452,Mission Split Female 2 / Workforce Supervisor /  Welfare research,44,11,comm|comm_broadcast|comm_npc|normal,44
+20205,Ware Transport Types,44,11,comm|comm_broadcast|comm_npc|normal,44
+20214,Unit Types,44,11,comm|comm_broadcast|comm_npc|normal,44
+20113,Spacesuit Upgrades,40,10,comm|comm_broadcast|comm_npc|normal,40
+20206,Ware Production Methods,40,10,comm|comm_broadcast|comm_npc|normal,40
+10158,Mission Argon/Terran NPC Male 4 / Terran Cadet Gamestart Character,36,9,comm|comm_broadcast|comm_npc|normal,36
+10354,Mission Paranid NPC 4 / Pioneers Civilian 1 - Yaki investigation,36,9,comm|comm_broadcast|comm_npc|normal,36
+20202,Races,36,9,comm|comm_broadcast|comm_npc|normal,36
+10164,Mission Argon/Terran NPC Female 7 / Argon Guard 2 - Covert ops,32,8,comm|comm_broadcast|comm_npc|normal,32
+10557,Mission Teladi NPC 7 / Teladi captain - Terran jumpgate discovery,32,8,comm|comm_broadcast|comm_npc|normal,32
+10167,Mission Argon/Terran NPC Male 8 / Angry Antigone Miner - Terran war Intro,28,7,comm|comm_broadcast|comm_npc|normal,28
+20006,Miscellaneous Locations,28,7,comm|comm_broadcast|comm_npc|normal,28
+10137,Mission Argon Female 26 / Nyana Gunne,28,7,comm|comm_broadcast|comm_npc|normal,28
+10138,Mission Argon NPC Male 27 - Martinus Sandas,28,7,comm|comm_broadcast|comm_npc|normal,28
+10144,Mission Argon NPC Male 32 / Kyle Brennan,28,7,comm|comm_broadcast|comm_npc|normal,28
+10145,Mission Argon NPC Male 33 / Bret Serra,28,7,comm|comm_broadcast|comm_npc|normal,28
+10194,Mission Argon/Terran NPC Male 22 / Mysterious Boso Fan,24,6,comm|comm_broadcast|comm_npc|normal,24
+20220,Ship Quadrants,24,6,comm|comm_broadcast|comm_npc|normal,24
+10143,Mission Argon NPC Male 31 / Military Pilot,20,5,comm|comm_broadcast|comm_npc|normal,20
+10258,Mission Boron NPC 8 / Boron Newscaster,20,5,comm|comm_broadcast|comm_npc|normal,20
+10168,Mission Argon/Terran NPC Male 9 / Civilian Distress Signal - Terran cadet gamestart,16,4,comm|comm_broadcast|comm_npc|normal,16
+10552,Mission Teladi NPC 2 / Terraforming contact (18B),16,4,comm|comm_broadcast|comm_npc|normal,16
+10553,Mission Teladi NPC 3 / Terraforming contact (MoP),16,4,comm|comm_broadcast|comm_npc|normal,16
+10171,Mission Argon/Terran NPC Male 11 / Hatikvah Announcement NPC - Diplomatic intro,12,3,comm|comm_broadcast|comm_npc|normal,12
+10556,Mission Teladi NPC 6 / Ambushing Teladi Pirate - Covert ops,8,2,comm|comm_broadcast|comm_npc|normal,8
+10573,Teladi Mini DLC2 Gamestart,8,2,comm|comm_broadcast|comm_npc|normal,8
+20002,Galaxy,4,1,comm|comm_broadcast|comm_npc|normal,4
+30221216,?,4,1,comm|comm_broadcast|comm_npc|normal,0

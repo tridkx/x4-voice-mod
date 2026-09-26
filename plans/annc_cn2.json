@@ -1,0 +1,33 @@
+{
+  "id": "x4_annc_cn",
+  "name": "Chinese Ship and Station Announcements (probe)",
+  "name_zh": "中文飞船与空间站播报（探针）",
+  "description": "Redirects ship-computer and station-announcement voice samples to Chinese TTS audio shipped inside this extension.",
+  "description_zh": "把飞船电脑 Betty 与空间站公共广播的采样重定向到扩展内的中文语音。",
+  "date": "2026-02-01",
+  "langs": ["l044"],
+  "text_lang": "l086",
+  "voice": "Microsoft Huihui Desktop",
+  "rate": 0,
+  "targets": [
+    {"page": "10002", "contexts": ["normal"], "lines": "all",
+     "dest": "voice/10002/normal/{line}.ogg", "tts_text": "@t"},
+    {"page": "10002", "contexts": ["normal"], "lines": "all",
+     "dest": "voice-l044/10002/normal/{line}.ogg", "tts_text": "@t"},
+    {"page": "10002", "contexts": ["comm"], "lines": "all",
+     "dest": "voice/10002/comm/{line}.ogg", "tts_text": "@t"},
+    {"page": "10002", "contexts": ["comm"], "lines": "all",
+     "dest": "voice-l044/10002/comm/{line}.ogg", "tts_text": "@t"},
+    {"page": "10099", "contexts": ["station_broadcast"], "lines": "all",
+     "dest": "voice/10099/station_broadcast/{line}.ogg", "tts_text": "@t"},
+    {"page": "10099", "contexts": ["station_broadcast"], "lines": "all",
+     "dest": "voice-l044/10099/station_broadcast/{line}.ogg", "tts_text": "@t"}
+  ],
+  "sound_library_redirect": [
+    {"id": "10002_normal",         "sample": "extensions\\x4_annc_cn\\voice\\10002\\normal"},
+    {"id": "10002_comm",           "sample": "extensions\\x4_annc_cn\\voice\\10002\\normal"},
+    {"id": "10002_comm_broadcast", "sample": "extensions\\x4_annc_cn\\voice\\10002\\comm"},
+    {"id": "10099_normal",         "sample": "extensions\\x4_annc_cn\\voice\\10099\\station_broadcast"},
+    {"id": "10099_comm_broadcast", "sample": "extensions\\x4_annc_cn\\voice\\10099\\station_broadcast"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "x4_voice_probe",
+  "name": "X4 Voice Probe",
+  "name_zh": "X4 语音替换探针",
+  "description": "Probe mod: verifies whether an extension can override vanilla voice files.",
+  "description_zh": "探针 mod：验证扩展能否覆盖原版语音文件。",
+  "date": "2026-02-01",
+  "langs": ["l044"],
+  "gain_db": 0.0,
+  "targets": []
+}
