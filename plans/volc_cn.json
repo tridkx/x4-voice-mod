@@ -1,0 +1,69 @@
+{
+  "id": "x4_annc_cn",
+  "name": "Chinese Ship and Station Announcements (Volcengine TTS)",
+  "name_zh": "中文飞船与空间站播报（火山配音）",
+  "description": "Replaces the ship computer and station PA voice lines with Chinese TTS from Volcengine Doubao.",
+  "description_zh": "把飞船电脑与空间站公共广播换成中文语音（火山引擎豆包配音：湾湾小何 / 温柔妈妈2.0）。",
+  "date": "2026-02-01",
+  "langs": [
+    "l044"
+  ],
+  "text_source": "work/text_map.json",
+  "groups": [
+    {
+      "page": "10002",
+      "contexts": [
+        "normal",
+        "comm"
+      ],
+      "dest": "voice/10002/normal/{line}.ogg",
+      "speaker": "zh_female_wanwanxiaohe_moon_bigtts",
+      "resource_id": "seed-tts-1.0",
+      "context": "用略带俏皮和活力的语气播报，不要一板一眼",
+      "speech_rate": 2
+    },
+    {
+      "page": "10002",
+      "contexts": [
+        "comm_broadcast"
+      ],
+      "dest": "voice/10002/comm/{line}.ogg",
+      "speaker": "zh_female_wanwanxiaohe_moon_bigtts",
+      "resource_id": "seed-tts-1.0",
+      "context": "用略带俏皮和活力的语气播报，不要一板一眼",
+      "speech_rate": 2
+    },
+    {
+      "page": "10099",
+      "contexts": [
+        "station_broadcast"
+      ],
+      "dest": "voice/10099/station_broadcast/{line}.ogg",
+      "speaker": "zh_female_wenroumama_uranus_bigtts",
+      "resource_id": "seed-tts-2.0",
+      "speech_rate": 0
+    }
+  ],
+  "sound_library_redirect": [
+    {
+      "id": "10002_normal",
+      "sample": "extensions\\x4_annc_cn\\voice\\10002\\normal"
+    },
+    {
+      "id": "10002_comm",
+      "sample": "extensions\\x4_annc_cn\\voice\\10002\\normal"
+    },
+    {
+      "id": "10002_comm_broadcast",
+      "sample": "extensions\\x4_annc_cn\\voice\\10002\\comm"
+    },
+    {
+      "id": "10099_normal",
+      "sample": "extensions\\x4_annc_cn\\voice\\10099\\station_broadcast"
+    },
+    {
+      "id": "10099_comm_broadcast",
+      "sample": "extensions\\x4_annc_cn\\voice\\10099\\station_broadcast"
+    }
+  ]
+}

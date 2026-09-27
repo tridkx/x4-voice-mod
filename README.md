@@ -4,7 +4,25 @@
 
 游戏版本：9.00（`version.dat = 900`），语言：中文界面（`lang.dat = 86`），语音仅英语 `l044` / 德语 `l049` 两套。
 
-**状态：技术路线已跑通，成品已实机验证。** 当前交付一个把**飞船电脑与空间站广播**换成中文的扩展。
+**状态：技术路线已跑通，成品已实机验证。** 当前交付的正式版用**火山引擎豆包 TTS** 配音。
+
+## 正式版（火山配音）
+
+| 用途 | 音色 | voice_type | Resource-Id | 参数 |
+|---|---|---|---|---|
+| 飞船电脑 Betty | **湾湾小何**（TTS 1.0） | `zh_female_wanwanxiaohe_moon_bigtts` | `seed-tts-1.0` | 指令「用略带俏皮和活力的语气播报，不要一板一眼」+ 语速 +2 |
+| 空间站广播 | **温柔妈妈 2.0** | `zh_female_wenroumama_uranus_bigtts` | `seed-tts-2.0` | 无指令 |
+
+**两个坑（都踩过）**：
+
+1. **两代音色必须用不同的 `X-Api-Resource-Id`**：1.0 是 `seed-tts-1.0`、2.0 是 `seed-tts-2.0`。
+   用 `volc.service_type.10029` 调 1.0 音色虽然**能出声**，但 `context_texts` 会被**静默忽略** ——
+   实测同一条音频的时长与基频和"无指令"版**完全一致**，是很容易误判成"这音色不吃指令"的陷阱。
+2. **语气指令走 `additions.context_texts` 参数，不能拼进正文**。文档里那个 `[#...]` 写法是
+   **控制台试听界面**的输入方式；拼进 `text` 会被 TTS 当正文念出来。
+
+音频链路：火山返回 mp3 → ffmpeg 转 **Ogg Vorbis / 单声道 / 44100 Hz**（与 X4 原版一致）。
+接口还支持 `enable_subtitle` 返回**字级时间戳**，将来要做 lipsync 用得上。
 
 ## 成品与安装
 
@@ -135,6 +153,7 @@ X4 v5.0 时代）给出的结论是：**把语音文件当普通 extensions 散�
 | `tools/voice_mod_builder.py` | 读替换计划 JSON，批量 TTS 合成 → 转 X4 格式 ogg → 生成扩展 + 打包 |
 | `tools/check_extensions.py` | 扩展体检：content.xml 合法性、cat/dat 配对、索引与 dat 大小是否一致 |
 | `tools/patch_base_archive.py` | 原地替换基础归档里的文件（兜底路线 E）+ 回滚 |
+| `tools/build_volc_mod.py` | 火山 TTS 版构建器（两代音色分流 + 文本改写表 + 并发合成）|
 
 依赖：Python 3、`ffmpeg`（转 Ogg Vorbis）、Windows SAPI（`Microsoft Huihui Desktop` 中文女声、
 `Microsoft Zira Desktop` 英文女声）。游戏目录通过 `--game` 或环境变量 `X4_GAME_DIR` 指定，
@@ -188,6 +207,7 @@ Betty 是 X 系列里**飞船电脑语音**的昵称（page 10002 的标题就�
 - [x] 构建流水线（t 文件原文 → 批量 TTS → ogg → 扩展 → cat/dat）跑通，557 条台词 40 秒
 - [x] **路线 A 已证伪**（扩展覆盖语音无效）
 - [x] **路线 B 实测生效** —— 正式中文播报包已部署
+- [x] **火山配音正式版交付**：飞船 504 条 + 空间站 73 条，改写 26 条文本，1081 个音频
 - [ ] 按需扩大覆盖范围（星系名 / 船名 / 空间站名播报，或全量 229 个 page）
 - [ ] 按实测结果做正式替换工程
 
