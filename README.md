@@ -24,6 +24,12 @@
 音频链路：火山返回 mp3 → ffmpeg 转 **Ogg Vorbis / 单声道 / 44100 Hz**（与 X4 原版一致）。
 接口还支持 `enable_subtitle` 返回**字级时间戳**，将来要做 lipsync 用得上。
 
+## 下载
+
+最新发布包在 [Releases](https://github.com/tridkx/x4-voice-mod/releases) —— 下载 zip 解压，
+把 `x4_annc_cn` 文件夹放进 `X4 Foundations\extensions\`，重启游戏即可。
+（本仓库只放源码 / 工具 / 文档，mod 二进制走 Release 分发，避免仓库随每次更新膨胀。）
+
 ## 成品与安装
 
 | 内容 | page | 台词数 |
