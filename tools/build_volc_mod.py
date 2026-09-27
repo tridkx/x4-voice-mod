@@ -19,6 +19,7 @@ import base64
 import json
 import os
 import re
+import io
 import shutil
 import subprocess
 import sys
@@ -159,6 +160,43 @@ def mp3_to_x4_ogg(mp3: Path, ogg: Path, ffmpeg: str) -> None:
         raise RuntimeError(f"ffmpeg 转码失败: {proc.stderr.decode('utf-8', 'replace')[:200]}")
 
 
+def trim_silence(ogg: Path, head: float = 0.03, tail: float = 0.06, thr_db: float = -45) -> bool:
+    """裁掉音频首尾静音，原地替换。
+
+    火山 TTS 每条输出都带约 174ms 首静音 + 500ms 尾静音。完整句里这只是浪费，
+    但 X4 的飞船电脑语音是「名词零件 + 状态零件」拼起来的（441 自动驾驶 + 403 启动），
+    两个静音一叠加就凭空多出 685ms 空白，听感直接从「自动驾驶，启动」变成
+    「自动驾驶…………启动」。裁到 30ms 头 / 60ms 尾后空隙降到约 106ms。
+    """
+    import wave
+    import uuid as _uuid
+    import numpy as np
+
+    def decode(path: Path):
+        r = subprocess.run(["ffmpeg", "-v", "quiet", "-i", str(path), "-f", "wav",
+                            "-ac", "1", "-ar", "44100", "-"], capture_output=True)
+        with wave.open(io.BytesIO(r.stdout)) as w:
+            return np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16), w.getframerate()
+
+    x, sr = decode(ogg)
+    loud = np.where(np.abs(x) > 32768 * (10 ** (thr_db / 20)))[0]
+    if len(loud) == 0:
+        return False
+    a = max(0, loud[0] - int(head * sr))
+    b = min(len(x), loud[-1] + int(tail * sr))
+    if b - a < int(0.15 * sr) or (b - a) >= len(x) - int(0.01 * sr):
+        return False
+    tmp = ogg.with_name(f"_t{_uuid.uuid4().hex[:6]}.ogg")
+    r = subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(ogg), "-ss", f"{a/sr:.3f}",
+                        "-t", f"{(b-a)/sr:.3f}", "-ac", "1", "-ar", "44100",
+                        "-c:a", "libvorbis", "-q:a", "3", str(tmp)], capture_output=True)
+    if r.returncode == 0 and tmp.is_file() and tmp.stat().st_size > 1000:
+        os.replace(tmp, ogg)
+        return True
+    tmp.unlink(missing_ok=True)
+    return False
+
+
 def find_ffmpeg(explicit: str | None = None) -> str:
     if explicit:
         return explicit
@@ -279,6 +317,7 @@ def main() -> None:
         mp3.write_bytes(volc_tts(text, g["speaker"], g["resource_id"], api_key,
                                  context=g.get("context"), speech_rate=g.get("speech_rate", 0)))
         mp3_to_x4_ogg(mp3, ogg, ffmpeg)
+        trim_silence(ogg)                     # 去掉火山 TTS 的首尾静音
         mp3.unlink(missing_ok=True)
         return (page, text), ogg
 
